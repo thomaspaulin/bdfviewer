@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bdfviewer"
+version = "0.1.0"
+description = "View bdf files. Intended to quickly and easily confirm conversion to BDF succeeded"
+authors = ["thomas <7918983+thomaspaulin@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+click = "^8.1.7"
+pillow = "^10.2.0"
+matplotlib = "^3.8.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
